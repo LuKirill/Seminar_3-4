@@ -4,4 +4,5 @@
 
 my_list = [1.1, 1.2, 3.1, 5, 10.01]
 float_list = [i % 1 for i in my_list]
-print(format(max(float_list) - min(float_list), '.2f'))
+a = max(float_list) - min(float_list)
+print(int(a * 100) / 100)
